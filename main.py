@@ -7,4 +7,4 @@ elif choice == 'c' or choice == 'C':
   faren = (temp * 9/5) + 32
   print(f"{temp}° in Celsius is equivalent to {faren}° Fahrenheit.")
 else:
-  print("Invalid unit(bad).")
+  print(f"Invalid unit({choice}).")
